@@ -23,7 +23,7 @@ public class ProductService {
      */
 
     public List<Product> getAllProducts(){
-        return products;
+        return products ;
     }
     public Product addProduct(Product product){
         products.add(product);
